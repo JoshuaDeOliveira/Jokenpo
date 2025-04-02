@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jokenpo</title>
+
+  <link rel="stylesheet" href="/Exercicios/Projetos/Jokenpo/Style.css">
+</head>
+<body>
+  <h1>Jokenpo</h1>
+  <div class="Botões">
+    <button onclick="Jokenpo('Pedra')">Pedra</button>
+    <button onclick="Jokenpo('Papel')">Papel</button>
+    <button onclick="Jokenpo('Tesoura')">Tesoura</button>
+    <button onclick="Reset()">Reset Score</button>
+  </div>
+  <div class="Tabela">
+    <ul class="Lista" id="Condicao">
+      <li>Wins: </li>
+      <li>Lossers: </li>
+      <li>Draw: </li>
+    </ul>
+    <ul class="Lista">
+      <li class="Pontos" id="Vencedor"></li>
+      <li class="Pontos" id="Derrota"></li>
+      <li class="Pontos" id="Empate"></li>
+    </ul>
+  </div>
+  <p>Link para a <a href="https://joshuadeoliveira.github.io/PedraPapelTesoura/">versão final</a> do projeto</p>
+
+  <script src="/Exercicios/Projetos/Jokenpo/Script.js"></script>
+</body>
+</html>
